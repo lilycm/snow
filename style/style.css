@@ -231,3 +231,154 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 /* <!------------ company section end-----------> */
 
 
+
+/*---------- blog section start ---------------*/
+
+#blog{
+    background-color: rgb(246, 246, 246);
+    padding: 100px 0px;
+}
+#blog h1{
+    font-family: 'Playfair Display', serif;
+}
+#blog p{
+    font-family: 'Work Sans', sans-serif;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 20px;
+}
+#blog .swiper1{
+    overflow: hidden;
+}
+.swiper1{
+    text-align: center;
+}
+#blog .blogs .blog1 h4, strong, p{
+    text-align: left;
+}
+#blog .blogs .blog1{
+    padding-bottom: 30px;
+    box-shadow: 5px 5px 15px gray;
+}
+#blog .blogs .blog1 img{
+    width: 100%;
+}
+#blog .blogs .blog1 h4{
+    padding: 30px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+#blog .blogs .blog1 strong, p{
+    padding: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+#blog .blogs{
+    width: 100%;
+}
+/*------------ blog section end ---------------*/
+
+
+/* <!------------ contact section start-----------> */
+#contact{
+    padding: 100px 0;
+    background-color: rgb(246, 246, 246);
+}
+#contact .contact-info span{
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+#contact .contact-info .contact-text{
+    padding: 30px 0px;
+}
+#contact .contact-info .address .address-detail{
+    display: flex;
+}
+#contact .contact-info .address .address-detail p{
+    padding-left: 10px;
+}
+#contact .name-email{
+    display: flex;
+}
+#contact .name-email input{
+    padding: 20px;
+}
+#contact .name-email .input-email{
+    margin-left: 20px;
+}
+#contact .title input{
+    padding: 20px;
+}
+#contact .col-lg-6 button{
+    margin-top: 20px;
+    background-color: black;
+    padding: 15px 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+#contact .col-lg-6 button:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+/* <!------------ contact section end-----------> */
+
+
+/* <!------------ footer section start-----------> */
+footer{
+    margin: 0;
+    padding: 0;
+}
+
+#footer{
+    background-color: black;
+}
+#footer .footer-detail{
+    padding-top: 100px;
+    padding-bottom: 86px;
+}
+#footer .footer-detail .col-lg-4 h4{
+    font-family: 'Playfair Display', serif;
+}
+#footer .footer-detail .col-lg-4 p{
+    padding: 25px 0px;
+}
+#footer .footer-detail .smm-icon a{
+    padding: 0 10px 0 0;
+}
+#footer .footer-detail .col-lg-4 .twits{
+    display: flex;
+}
+
+#footer .footer-detail .col-lg-4 .twits a{
+    padding-top: 25px;
+}
+
+#footer .footer-detail .col-lg-4 .twits p{
+    margin-left: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+#footer .footer-detail .col-lg-4 .instagram{
+    padding-top: 25px;
+}
+.instagram-pic .col-lg-3{
+    margin-bottom: 20px;
+}
+.instagram-pic .col-lg-3 img{
+    width: 100%;
+}
+
+#footer .copywrite p{
+    padding: 30px;
+    margin: 0;
+}
+
+/* <!------------footer section end-----------> */
+
+
