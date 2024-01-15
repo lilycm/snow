@@ -4,7 +4,7 @@ body{
 }
  /*-------------- navbar section start -------------*/
 #header{
-    background: url(/images/bg-1.jpg);
+    background: url(../images/bg-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,7 +90,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 /*-------------- detail section start-------------*/
 #detail{
     margin-top: 100px;
-    background: url(/images/pattern-bg.jpg);
+    background: url('../images/pattern-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,7 +187,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 /*---------- feedback section start -----------*/
 #feedback{
     margin-top: 100px;
-    background: url(/images/pattern-bg.jpg);
+    background: url('../images/pattern-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -296,9 +296,13 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 }
 #contact .contact-info .address .address-detail{
     display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 20px;
 }
 #contact .contact-info .address .address-detail p{
-    padding-left: 10px;
+    margin: 0;
+    padding: 0;
 }
 #contact .name-email{
     display: flex;
