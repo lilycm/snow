@@ -1,0 +1,70 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+ /*-------------- navbar section start -------------*/
+#header{
+    background: url(/images/bg-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 655px;
+}
+#header .menu-bar{
+     position: relative;
+     z-index: 2;
+   
+}
+.nav-item .nav-link{
+    color: white;
+    font-weight: 400;
+}
+#header .header-detail{
+    text-align: center;
+    padding-top: 200px;
+    position: relative;
+    z-index: 1;
+}
+#header::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(99, 99, 99);
+    min-height: 775px;
+    opacity: .5;
+}
+#header .header-detail .first-para p{
+    color: white;
+    font-weight: 700;
+    font-size: smaller;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 2px;
+}
+#header .header-detail .second-para p{
+    font-size: 48px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+#header .header-detail .second-para span{
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+}
+#header .header-detail .btn{
+    margin: 80px 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+#header .header-detail .btn:hover{
+    border: 1px solid wheat;
+}
+
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+    color: white;
+}
+ /*-------------- navbar section end-------------*/
