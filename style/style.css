@@ -143,6 +143,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     margin-top: 50px;
+    gap: 15px;
 }
 
 #project .product-images .product-imgage{
@@ -150,6 +151,11 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     top: 0;
     left: 0;
 }
+
+#project .product-images .product-imgage img{
+    width: 100%;
+}
+
 #project .product-images .product-imgage .opacity{
     position: absolute;
     top: 0;
@@ -177,4 +183,51 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     text-align: center;
 }
 /*-------------- project section end-------------*/
+
+/*---------- feedback section start -----------*/
+#feedback{
+    margin-top: 100px;
+    background: url(/images/pattern-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.slide{
+    width: 100%;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 200px;
+}
+.slide P{
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
+#feedback .swiper .swiper-wrapper .slide span{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+}
+.swiper-pagination-bullet{
+    background: rgb(24, 21, 21);
+}
+.swiper-pagination1-bullet{
+    background: black;
+}
+
+/*------------ feedback section end -------------*/
+
+
+/* <!------------ company section start-----------> */
+#company-logo{
+    margin: 62px 0;
+}
+#company-logo .col-lg-2{
+    text-align: center;
+}
+/* <!------------ company section end-----------> */
+
 
